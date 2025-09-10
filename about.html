@@ -3,55 +3,80 @@
 <head>
   <meta charset="UTF-8">
   <title>Tentang Saya</title>
+  <!-- Import font cantik -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
     body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fff, #ffccff, #ccf2ff); /* gradasi pink-biru muda */
-      text-align: center;
-      padding: 50px;
       margin: 0;
-      color: #333;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(180deg, #0d1b2a, #1b263b, #415a77); /* gradasi biru navy */
+      color: #f1f1f1;
+      text-align: center;
     }
-    h1 {
-      color: #800080;
+    header {
+      padding: 40px 20px;
+    }
+    header h1 {
       font-size: 2.5em;
-      margin-bottom: 20px;
+      color: #00b4d8; /* biru cerah */
     }
-    p {
-      font-size: 20px;
-      margin: 10px 0;
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%; /* bikin bulat */
+      border: 4px solid #00b4d8; /* garis biru */
+      object-fit: cover; /* biar foto pas */
+      margin-bottom: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      margin: 20px auto;
+      padding: 30px;
+      border-radius: 15px;
+      max-width: 700px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    }
+    .card h2 {
+      color: #90e0ef;
+      margin-bottom: 15px;
     }
     .highlight {
-      color: #ff3399;
-      font-weight: bold;
+      color: #00b4d8;
+      font-weight: 600;
     }
     a {
       display: inline-block;
-      margin-top: 30px;
-      padding: 12px 25px;
-      background: #800080;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #0077b6;
       color: white;
+      border-radius: 8px;
       text-decoration: none;
-      border-radius: 25px;
-      font-size: 18px;
-      font-weight: 600;
       transition: 0.3s;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
     }
     a:hover {
-      background: #660066;
-      transform: scale(1.05);
+      background: #0096c7;
     }
   </style>
 </head>
 <body>
-  <h1>Tentang Saya 💜</h1>
-  <p>Halo, nama saya <span class="highlight">Yeni Estefani</span> ✨</p>
-  <p>Saya suka sekali dengan <span class="highlight">BTS</span> 💜</p>
-  <p>Dan saya merasa <span class="highlight">cantik</span> 😊</p>
+  <header>
+    <h1>✨ Tentang Saya ✨</h1>
+  </header>
 
-  <a href="index.html">⬅ Kembali ke Beranda</a>
+  <!-- Foto Profil -->
+  <img src="images/profil.jpg" alt="Foto Yeni" class="profile-img">
+
+  <div class="card">
+    <h2>Halo! 👋</h2>
+    <p>Nama saya <span class="highlight">Yeni</span> 🌸</p>
+    <p>Saya adalah <span class="highlight">mahasiswi Fisika</span> di Universitas Hasanuddin 🎓</p>
+    <p>Saya suka <span class="highlight">BTS 💜</span> dan saya bangga bilang saya <span class="highlight">cantik 😍</span></p>
+    <p>Musik BTS memberi saya semangat dan warna baru dalam hidup ✨</p>
+    <a href="index.html">⬅ Kembali ke Beranda</a>
+  </div>
 </body>
 </html>
+
