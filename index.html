@@ -5,23 +5,45 @@
   <title>Website Pertamaku</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background: #f2f2f2;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #74ebd5, #9face6); /* gradasi warna */
       text-align: center;
       padding: 50px;
+      color: #222;
     }
     h1 {
-      color: #333;
+      color: #222;
+      font-size: 3em;
     }
     p {
+      font-size: 20px;
+      color: #444;
+    }
+    .highlight {
+      color: #ff3366;
+      font-weight: bold;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background: #ff6600;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
       font-size: 18px;
-      color: #666;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #cc5200;
     }
   </style>
 </head>
 <body>
-  <h1>Halo, Dunia! 👋</h1>
-  <p>Selamat datang di website percobaan pertama saya di GitHub Pages 🚀</p>
-  <p>Yeni Cantik</p>
+  <h1>Halo, Dunia! 🌈</h1>
+  <p>Selamat datang di <span class="highlight">website percobaan</span> saya di GitHub Pages 🚀</p>
+  <p>Nama saya <b>Yeni Cantik</b> 😍</p>
+
+  <a href="about.html" class="btn">Tentang Saya</a>
 </body>
 </html>
