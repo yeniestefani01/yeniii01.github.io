@@ -48,7 +48,16 @@
     }
   </style>
 </head>
-  <head>
+<body>
+  <h1>Halo, Dunia! 🌊</h1>
+  <p>Selamat datang di <span class="highlight">website percobaan</span> saya di GitHub Pages 🚀</p>
+  <p>Nama saya <b>Yeni Cantik</b> ✨</p>
+
+  <a href="about.html" class="btn">Tentang Saya</a>
+</body>
+  <!DOCTYPE html>
+<html lang="id">
+<head>
   <meta charset="UTF-8">
   <title>Tentang Saya</title>
 
@@ -59,119 +68,79 @@
     body {
       font-family: 'Poppins', sans-serif;
       background: linear-gradient(
-        rgba(0, 51, 102, 0.8), 
-        rgba(0, 102, 204, 0.8)
-      ), url('images/bts-bg.jpg'); /* ganti dengan nama file gambarmu */
+        rgba(10, 25, 47, 0.95), 
+        rgba(60, 60, 60, 0.95)
+      ), url('images/bts-bg.jpg'); /* opsional: tambah gambar latar */
       background-size: cover;
       background-position: center;
+      background-attachment: fixed;
       text-align: center;
       padding: 50px;
       margin: 0;
-      color: white;
+      color: #f0f0f0;
     }
 
     h1 {
-      color: #cce6ff;
-      font-size: 2.8em;
+      color: #ccd6f6; /* abu-abu kebiruan */
+      font-size: 3em;
       margin-bottom: 20px;
-      text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+      text-shadow: 2px 2px 12px rgba(0,0,0,0.6);
     }
 
     p {
       font-size: 20px;
-      margin: 12px 0;
-      color: #e6f2ff;
+      margin: 15px 0;
+      color: #d9d9d9;
+      line-height: 1.6;
     }
 
     .highlight {
-      color: #66ccff;
+      color: #64ffda; /* aksen hijau kebiruan */
       font-weight: bold;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.08);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 20px;
+      padding: 30px;
+      max-width: 650px;
+      margin: auto;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+      backdrop-filter: blur(6px);
     }
 
     a {
       display: inline-block;
-      margin-top: 30px;
+      margin-top: 25px;
       padding: 12px 25px;
-      background: linear-gradient(45deg, #0066cc, #3399ff);
+      background: linear-gradient(45deg, #1e2a47, #3d3d3d);
       color: white;
       text-decoration: none;
       border-radius: 25px;
       font-size: 18px;
       font-weight: 600;
       transition: 0.3s;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.4);
+      box-shadow: 0 4px 8px rgba(0,0,0,0.4);
     }
 
     a:hover {
-      background: linear-gradient(45deg, #004080, #0066cc);
+      background: linear-gradient(45deg, #14213d, #2e2e2e);
       transform: scale(1.08);
     }
   </style>
 </head>
-
 <body>
-  <h1>Halo, Dunia! 🌊</h1>
-  <p>Selamat datang di <span class="highlight">website percobaan</span> saya di GitHub Pages 🚀</p>
-  <p>Nama saya <b>Yeni Cantik</b> ✨</p>
+  <div class="card">
+    <h1>🌙 Tentang Saya</h1>
+    <p>Halo! Nama saya <span class="highlight">Yeni</span> ✨</p>
+    <p>Saya adalah <span class="highlight">mahasiswi Fisika</span> di Universitas Hasanuddin 🎓</p>
+    <p>Saya suka <span class="highlight">BTS</span> 💜 dan saya bangga bilang saya <span class="highlight">cantik</span> 😍</p>
+    <p>Musik BTS memberi saya semangat dan warna baru dalam perjalanan hidup 💙</p>
 
-  <a href="about.html" class="btn">Tentang Saya</a>
-  <!DOCTYPE html>
-<html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <title>Tentang Saya</title>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
-
-    body {
-      font-family: 'Poppins', sans-serif;
-      background: linear-gradient(135deg, #fff, #ffccff, #ccf2ff); /* gradasi pink-biru muda */
-      text-align: center;
-      padding: 50px;
-      margin: 0;
-      color: #333;
-    }
-    h1 {
-      color: #800080;
-      font-size: 2.5em;
-      margin-bottom: 20px;
-    }
-    p {
-      font-size: 20px;
-      margin: 10px 0;
-    }
-    .highlight {
-      color: #ff3399;
-      font-weight: bold;
-    }
-    a {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 25px;
-      background: #800080;
-      color: white;
-      text-decoration: none;
-      border-radius: 25px;
-      font-size: 18px;
-      font-weight: 600;
-      transition: 0.3s;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
-    }
-    a:hover {
-      background: #660066;
-      transform: scale(1.05);
-    }
-  </style>
-</head>
-<body>
-  <h1>Tentang Saya 💜</h1>
-  <p>Halo, nama saya <span class="highlight">Yeni</span> ✨</p>
-  <p>Saya suka sekali dengan <span class="highlight">BTS</span> 💜</p>
-  <p>Dan saya merasa <span class="highlight">cantik</span> 😊</p>
-
-  <a href="index.html">⬅ Kembali ke Beranda</a>
+    <a href="https://www.unhas.ac.id" target="_blank">🌐 Universitas Hasanuddin</a>
+  </div>
 </body>
 </html>
 
-</body>
 </html>
