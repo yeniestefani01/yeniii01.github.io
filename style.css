@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Website Pertamaku</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      background: #0077cc;
+      color: white;
+      padding: 20px;
+    }
+    nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    main {
+      padding: 40px;
+    }
+    footer {
+      background: #333;
+      color: white;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halo, Dunia! 👋</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">Tentang Saya</a>
+      <a href="contact.html">Kontak</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Selamat datang di website saya 🚀</h2>
+    <p>Ini adalah percobaan pertama saya menggunakan GitHub Pages.</p>
+  </main>
+
+  <footer>
+    &copy; 2025 Dibuat dengan ❤️ oleh saya
+  </footer>
+</body>
+</html>
