@@ -1,6 +1,6 @@
 <section class="gallery">
-  <img src="GB_H_PROGRESIF.jpg" alt="GB_H_PROGRESIF.jpg">
-  <img src="PENGADERAN7.jpg" alt="">
+  <img src="GB_H_PROGRESIF.jpg" alt="GB_H_PROGRESIF.jpg" alt="Foto Yeni" class="profile-pic">
+  <img src="PENGADERAN7.jpg" alt="Foto Yeni" class="profile-pic">
   <img src="images/gal3.jpg" alt="">
 </section>
 
